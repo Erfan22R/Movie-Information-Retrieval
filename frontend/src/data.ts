@@ -1,0 +1,160 @@
+import type { Movie } from './types'
+
+export const MOVIE_DB: Movie[] = [
+  {
+    id: 1,
+    title: 'The Shawshank Redemption',
+    year: 1994,
+    genre: ['Drama'],
+    plot: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency in the oppressive prison system. Andy Dufresne, a banker wrongly convicted of murder, forms an unlikely friendship with Red, a seasoned inmate, as they both navigate life behind bars.',
+    similarity: 0.943,
+    poster: 'https://images.unsplash.com/photo-1637059880830-59a90102de77?w=400&h=600&fit=crop&auto=format',
+    director: 'Frank Darabont',
+    writer: 'Stephen King (novel), Frank Darabont (screenplay)',
+    cast: ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton', 'William Sadler'],
+    runtime: '142 min',
+    country: 'United States',
+    language: 'English',
+    rating: 9.3,
+    matchedKeywords: ['prison', 'redemption', 'friendship', 'hope', 'escape'],
+  },
+  {
+    id: 2,
+    title: 'Inception',
+    year: 2010,
+    genre: ['Sci-Fi', 'Thriller'],
+    plot: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O. As the team dives deeper into the subconscious, the boundaries between dream and reality begin to blur dangerously.',
+    similarity: 0.891,
+    poster: 'https://images.unsplash.com/photo-1759354192456-71975b190c51?w=400&h=600&fit=crop&auto=format',
+    director: 'Christopher Nolan',
+    writer: 'Christopher Nolan',
+    cast: ['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Elliot Page', 'Tom Hardy'],
+    runtime: '148 min',
+    country: 'United States / United Kingdom',
+    language: 'English, Japanese, French',
+    rating: 8.8,
+    matchedKeywords: ['dream', 'subconscious', 'heist', 'reality', 'layers'],
+  },
+  {
+    id: 3,
+    title: 'The Dark Knight',
+    year: 2008,
+    genre: ['Action', 'Crime', 'Drama'],
+    plot: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice. The line between hero and villain becomes dangerously thin.',
+    similarity: 0.857,
+    poster: 'https://images.unsplash.com/photo-1667857431230-3fbd21c56e62?w=400&h=600&fit=crop&auto=format',
+    director: 'Christopher Nolan',
+    writer: 'Jonathan Nolan, Christopher Nolan',
+    cast: ['Christian Bale', 'Heath Ledger', 'Aaron Eckhart', 'Michael Caine'],
+    runtime: '152 min',
+    country: 'United States / United Kingdom',
+    language: 'English',
+    rating: 9.0,
+    matchedKeywords: ['chaos', 'justice', 'villain', 'psychological', 'Gotham'],
+  },
+  {
+    id: 4,
+    title: 'Interstellar',
+    year: 2014,
+    genre: ['Sci-Fi', 'Adventure'],
+    plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival. Love transcends dimensions of time and space as a father fights to return to his daughter across the fabric of the universe.",
+    similarity: 0.824,
+    poster: 'https://images.unsplash.com/photo-1508925831690-f33f79533e7c?w=400&h=600&fit=crop&auto=format',
+    director: 'Christopher Nolan',
+    writer: 'Jonathan Nolan, Christopher Nolan',
+    cast: ['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain', 'Michael Caine'],
+    runtime: '169 min',
+    country: 'United States / United Kingdom',
+    language: 'English',
+    rating: 8.7,
+    matchedKeywords: ['space', 'wormhole', 'time', 'survival', 'gravity'],
+  },
+  {
+    id: 5,
+    title: 'Pulp Fiction',
+    year: 1994,
+    genre: ['Crime', 'Drama'],
+    plot: 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption. Told in a non-linear narrative that redefines crime cinema.',
+    similarity: 0.786,
+    poster: 'https://images.unsplash.com/photo-1629278357549-b413116d211c?w=400&h=600&fit=crop&auto=format',
+    director: 'Quentin Tarantino',
+    writer: 'Quentin Tarantino, Roger Avary',
+    cast: ['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis'],
+    runtime: '154 min',
+    country: 'United States',
+    language: 'English, Spanish, French',
+    rating: 8.9,
+    matchedKeywords: ['crime', 'hitmen', 'violence', 'non-linear', 'mafia'],
+  },
+  {
+    id: 6,
+    title: 'The Matrix',
+    year: 1999,
+    genre: ['Sci-Fi', 'Action'],
+    plot: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. A groundbreaking exploration of simulated reality and human liberation.',
+    similarity: 0.748,
+    poster: 'https://images.unsplash.com/photo-1633885274919-04b5af171f8c?w=400&h=600&fit=crop&auto=format',
+    director: 'The Wachowskis',
+    writer: 'Lilly Wachowski, Lana Wachowski',
+    cast: ['Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss', 'Hugo Weaving'],
+    runtime: '136 min',
+    country: 'United States / Australia',
+    language: 'English',
+    rating: 8.7,
+    matchedKeywords: ['simulation', 'reality', 'hacker', 'rebellion', 'liberation'],
+  },
+  {
+    id: 7,
+    title: 'Se7en',
+    year: 1995,
+    genre: ['Crime', 'Drama', 'Mystery'],
+    plot: 'Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives. A relentlessly dark psychological thriller that challenges every assumption about justice.',
+    similarity: 0.712,
+    poster: 'https://images.unsplash.com/photo-1506813293631-ce71f060a35b?w=400&h=600&fit=crop&auto=format',
+    director: 'David Fincher',
+    writer: 'Andrew Kevin Walker',
+    cast: ['Brad Pitt', 'Morgan Freeman', 'Kevin Spacey', 'Gwyneth Paltrow'],
+    runtime: '127 min',
+    country: 'United States',
+    language: 'English',
+    rating: 8.6,
+    matchedKeywords: ['detective', 'serial killer', 'deadly sins', 'mystery', 'dark'],
+  },
+  {
+    id: 8,
+    title: 'Parasite',
+    year: 2019,
+    genre: ['Drama', 'Thriller'],
+    plot: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan. A masterful social commentary disguised as a thriller.',
+    similarity: 0.678,
+    poster: 'https://images.unsplash.com/photo-1774016591258-f86e81cb1474?w=400&h=600&fit=crop&auto=format',
+    director: 'Bong Joon-ho',
+    writer: 'Bong Joon-ho, Han Jin-won',
+    cast: ['Song Kang-ho', 'Lee Sun-kyun', 'Cho Yeo-jeong', 'Choi Woo-shik'],
+    runtime: '132 min',
+    country: 'South Korea',
+    language: 'Korean',
+    rating: 8.5,
+    matchedKeywords: ['class', 'deception', 'wealth', 'social commentary', 'family'],
+  },
+]
+
+export function similarityColor(score: number): string {
+  if (score >= 0.9) return '#22d3a8'
+  if (score >= 0.8) return '#f5a000'
+  if (score >= 0.7) return '#fb923c'
+  return '#64748b'
+}
+
+export function simulateSearch(query: string): Movie[] {
+  if (!query.trim()) return []
+  const q = query.toLowerCase()
+  return MOVIE_DB.filter(
+    (m) =>
+      m.title.toLowerCase().includes(q) ||
+      m.plot.toLowerCase().includes(q) ||
+      m.genre.some((g) => g.toLowerCase().includes(q)) ||
+      m.director.toLowerCase().includes(q) ||
+      m.matchedKeywords.some((k) => k.toLowerCase().includes(q)),
+  ).sort((a, b) => b.similarity - a.similarity)
+}
