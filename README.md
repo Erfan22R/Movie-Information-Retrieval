@@ -289,7 +289,7 @@ psychological thriller
 * 🎓 Computer Engineering Student
 * 🏫 University of Science and Culture
 * 🔗 GitHub: [Erfan22R](https://github.com/Erfan22R)
-
+* 💼 LinkedIn: [Mohammad Erfan Ranjbarkohan](https://www.linkedin.com/in/erfan-ranjbar-ab19a3358)
 
 ---
 
