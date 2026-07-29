@@ -270,9 +270,6 @@ psychological thriller
 
 ---
 
-
----
-
 ## 🚀 Future Improvements
 
 * [ ] BM25 ranking
