@@ -44,7 +44,7 @@ Then open **http://localhost:5173** in your browser.
 
 ### 🏠 Home Page
 
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/Home_Page.png)
 
 ---
 
