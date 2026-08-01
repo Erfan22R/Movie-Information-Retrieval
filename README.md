@@ -184,7 +184,7 @@ psychological thriller
 
 ---
 
-## 🚀 Future Improvements
+## 💡 Possible Improvements
 
 * [ ] BM25 ranking
 * [ ] Genre and year filters
