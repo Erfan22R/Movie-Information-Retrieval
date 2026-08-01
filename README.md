@@ -207,12 +207,6 @@ psychological thriller
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## ⭐ If You Like This Project
 
 If this project helped you or you found it interesting, please consider **starring the repository** ⭐
